@@ -27,3 +27,162 @@
     justify-content: center;
     align-items: center;
 }
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid black;
+    object-fit: cover;
+    margin: none;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+
+.navbar{
+    background-color: rgb(255, 102, 0);
+}
+
+section{
+    background-color: black;}
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+
+
+.row > h2{
+    margin-top: 2%;
+}    
+
+
+.incio_productos-texto {
+	font-family: 'Poppins', sans-serif;
+	margin: 0% 20%;
+	text-align: center;
+}
+.inicio_productos-img {
+	display: flex;
+	justify-content: space-around;
+	row-gap: 100px;
+	flex-direction: row;
+	margin: 5%;
+	flex-wrap: wrap;}
+     h3 {
+		text-align: center;
+        color: white;
+	}
+    h4{
+        color: white;
+    }
+	img {
+		height: 350px;
+		width: 100%;
+		border-radius: 10%;
+		background-color: white;
+		transition: 0.5s;
+		filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+	}
+
+    .button-contact {
+        padding-top: 10px;
+    }
+    
+    .button-product1 {
+        background-color: black;
+        padding-top: 10px;
+        border: none;}
+         .button-product1 > a {
+            width: 15rem;
+            font-family: 'Poppins', sans-serif;
+            background-color: #b39975;
+            padding: 0.3rem;
+            border-radius: 0.3rem;
+            display: inline-block;
+            color: black;
+            text-decoration: none;
+            font-size:15px;
+            justify-content: center;
+        }
+    
+
+ .fa-solid{
+     color: white;
+}
+
+
+
+.container_grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	padding-top: 3%;
+}
+
+.estilos_footer1 {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	background-color:black;
+    grid-column-start: 1 / 2;
+}
+
+
+
+.estilos_footer2 {
+	grid-column-start: 2 / 3;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+	margin-bottom: 3%;
+	
+}
+
+.text {
+	margin-top: 30%;
+}
+
+.imagen_footer {
+    width: 30px;
+    height: 30px;
+	border-radius: 10px;
+	background-color: white;
+	grid-column-start: 2 / 3;
+}
+
+hr{
+	width: 45%;
+	color: white;
+}
+
+.div-imagenfooter1 {
+	display: flex;
+	width:  20px;
+	height:20px;
+	background-color:white;
+	border-radius:80px;
+}
+
+.estilos_footer-botton {
+	gap: 25px;
+}
+
+.button-footer {
+	width:50px;
+	height:50px;
+	box-sizing: border-box;
+	border-radius:80px;
+	box-shadow:20px white;
+	display: inline-block;
+	border: 3px solid black;
+	transition: all 1s, border .5s;
+}
+    
