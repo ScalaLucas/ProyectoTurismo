@@ -96,24 +96,29 @@ section{
     
     .button-product1 {
         background-color: black;
-        padding-top: 10px;
+        margin-top: 1%;
         border: none;}
          .button-product1 > a {
             width: 15rem;
             font-family: 'Poppins', sans-serif;
-            background-color: #b39975;
+            background-color:rgb(255, 102, 0);
             padding: 0.3rem;
-            border-radius: 0.3rem;
+            border-radius: 10px;
             display: inline-block;
             color: black;
             text-decoration: none;
-            font-size:15px;
+            font-size:20px;
             justify-content: center;
+        }
+        .button-product1:hover{
+            border-radius: 10px;
+            border: 3px solid rgb(255, 255, 255);;
         }
     
 
  .fa-solid{
      color: white;
+     margin-right: 35%;
 }
 
 
@@ -123,6 +128,7 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
 	padding-top: 3%;
+    background-color: black;
 }
 
 .estilos_footer1 {
@@ -130,7 +136,6 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	background-color:black;
     grid-column-start: 1 / 2;
 }
 
@@ -159,6 +164,10 @@ section{
 }
 
 hr{
+    color: white;
+}
+
+.hr-footer{
 	width: 45%;
 	color: white;
 }
@@ -185,4 +194,213 @@ hr{
 	border: 3px solid black;
 	transition: all 1s, border .5s;
 }
+
+/*Css aplicado a la pagina de contacto */
+
+.contenedor-contact {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.div2  h2 {
+    font-family: 'Bungee Shade', cursive;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.div1{
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.div1 > img {
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.button-contact {
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+
+
+#verticle-line{
+    margin-top: 100px;
+    width: 3px;
+    height: 600px;
+    background-color:#000000; 
+}
+
+.subtitle{
+    margin-top: 30%;
+}
+
+
+.instagram-app{
+    margin-top: 1%;
+}
+
+.facebook-app{
+    margin-top: 5%;
+}
+
+.fa-brands{
+    color: #000000;
+}
+
+.instagram-app > a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.facebook-app > a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer > p{
+    font-size: 1.5rem;
+}
+
+/*Css aplicado en pagina de Contacto2*/
+
+.contenedor-contacto{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+
+
+.div3 > img{
+    margin-top: 1%;
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.div3{
+    margin-right: 3%;
+}
+
+.input-Box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+span {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 15px;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 10px;
+    resize: none;
+    height: 250px;
+    width: 500px;
+}
+
+textarea:focus {
+    border: solid rgb(0, 132, 255);
+    color: grey;
+}
+
+input:focus {
+    border: solid rgb(0, 132, 255);
+    color: grey;
+}
+
+
+.text-footer2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
+.text-footer2 > p{
+    font-size: 1.5rem;
+}
+
+.input-Box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.input-Box2 > input{
+    background-color: #000000;
+    border: white;
+    width: 200px;
+    color: white;
+}
+
+.logos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+    gap: 25px;
+}
+
+.logos > a{
+    font-size: 40px;
+}
+
+
+.input1{
+    margin-left: 10%;
+    color: white;
+    background-color: #000000;
+    border: white;
+    width: 200px;
+}
+
+.input1:hover{
+    border:solid 3px rgb(0, 132, 255);
+}
